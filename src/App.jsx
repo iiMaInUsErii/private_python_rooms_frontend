@@ -6,7 +6,8 @@ import EmojiPicker from 'emoji-picker-react';
 import 'react-chat-elements/dist/main.css'
 import './App.css'
 
-let host = "http://127.0.0.1:3000"
+// let host = "http://127.0.0.1:3000"
+let host = "https://arturkhromov.pythonanywhere.com"
 
 function App() {
   const connectRef = useRef(null)
